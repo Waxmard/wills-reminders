@@ -1,11 +1,10 @@
-from helpers.api_helpers import sample_nexmo
-
+import os
 
 def main():
-    recipient_phone_number = input(
-        "Enter the recipient's phone number (E.164 format): "
-    )
-    sample_nexmo(recipient_phone_number)
+    message = "Hey Money, wanna bang?"
+    recipient = "5715337817@txt.att.net"
+    cmd = 'echo ' + message + ' | sendmail ' + recipient
+    os.system(cmd)
 
 
 if __name__ == "__main__":
