@@ -1,5 +1,5 @@
 # wills-reminders
-I want to solve the problem of Will's crippling ADHD disallowing him to remember to be quiet, to smoke weed, to workout, to bully kaelan,... and many other things he needs a bit of help to accomplish.
+I want to solve the problem of Will's crippling ADHD disallowing him to remember to be quiet, to smoke, to workout, to bully kaelan,... and many other things he needs a bit of help to accomplish.
 
 Wills-Reminders is a Python project that sends SMS messages using the Nexmo API. The project includes a Flask app to handle delivery receipts, providing more accurate information about the delivery status of messages.
 
